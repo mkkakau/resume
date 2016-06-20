@@ -212,3 +212,8 @@ span {
     display: block;
   }
 }
+
+/* My Styles */
+.project-entry img {
+  width: 300px;
+}

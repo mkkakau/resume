@@ -1,0 +1,179 @@
+/* Global */
+
+body {
+  font-family: "Questrial", sans-serif;
+  width: 1000px;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #113537;
+}
+
+#main {
+  background-color: #fff;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #f76f8e;
+  display: block;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #96616b;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #96616b;
+  line-height: 16px;
+  float: right;
+
+}
+
+/* Header */
+#header {
+  padding: 20px;
+}
+
+#name {
+  margin: 5px;
+}
+
+hr {
+  border-top: 1px solid #6d6875;
+}
+
+#topContacts {
+  margin: 10px;
+}
+
+#topContacts li {
+  display: inline;
+}
+
+.orange-text {
+  margin: 6px;
+  font-weight: bold;
+  color: #f76f8e;
+}
+
+.biopic {
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin-right: 10px;
+}
+
+#skills-h3 {
+  margin: 10px;
+}
+
+#skills {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Work Experience */
+#workExperience {
+  padding: 20px;
+  background-color: #ffead0;
+}
+
+/* Projects */
+#projects {
+  padding: 20px;
+}
+
+.project-entry img {
+  width: 300px;
+}
+
+/* Education */
+#education {
+  padding: 20px;
+  background-color: #ffead0;
+}
+
+.education-entry {
+  margin: 15px 0;
+}
+
+/* Map */
+#mapDiv h2{
+  margin: 25px 20px !important;
+}
+/* Connect */
+#lets-connect {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #ffead0;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+    height: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 6%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+}
