@@ -85,7 +85,7 @@ var projects = {
       dates: 'June 2016',
       description: 'Arcade game similar to Frogger created using HTML 5 Canvas, Bootstrap, and object-oriented JavaScript techniques.',
       images: [
-        'http://mkkakau.github.io/portfolio/img/frogger.png'
+        'https://mkkakau.github.io/portfolio/img/frogger.png'
       ]
     }
   ]
