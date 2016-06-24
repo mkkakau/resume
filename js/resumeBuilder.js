@@ -7,7 +7,7 @@ var bio = {
     github: 'https://github.com/mkkakau',
     location: 'Kurtistown, HI',
   },
-  biopic: 'images/fry.jpg',
+  biopic: 'images/biopic.jpg',
   welcomeMessage: 'Welcome!',
   skills: [
     'HTML',
